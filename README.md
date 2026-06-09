@@ -66,6 +66,7 @@ remote-wakeup/
 ├── ubuntu-pc/
 │   └── setup.md               BIOS, ethtool, nmcli guide
 └── laptop/
+    ├── laptop_setup.md        Laptop confg
     ├── wake_pc.py             client script
     ├── wake_pc_windows.py     Windows-compatible variant
     └── ssh_config.example     ProxyJump config template
