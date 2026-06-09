@@ -1,0 +1,12 @@
+# Node 1: The Bastion Host (OpenWrt router)
+Host router
+    HostName <your_router_ip>
+    User root
+    IdentityFile ~/.ssh/id_ed25519
+
+# Node 2: The Target Destination (Ubuntu PC)
+Host Ubuntu_PC
+    HostName <your_pc_ip>
+    User <your_pc_username>
+    IdentityFile ~/.ssh/id_ed25519
+    ProxyJump router
