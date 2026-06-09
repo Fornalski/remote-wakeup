@@ -1,0 +1,11 @@
+config 'etherwake' 'setup'
+	option 'pathes' '/usr/bin/etherwake /usr/bin/ether-wake'
+	option 'sudo' 'off'
+	option 'interface' 'br-lan'
+	option 'broadcast' 'on'
+
+config 'target'
+	option 'name' 'Ubuntu_PC'
+	option 'mac' 'XX:XX:XX:XX:XX:XX'
+	option 'password' ''
+	option 'wakeonboot' 'off'
